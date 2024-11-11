@@ -5,7 +5,6 @@ export async function addAccountInDb(values) {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                // "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxvZ2VzaHdhcmkiLCJyb2xlIjoidXNlciIsImlhdCI6MTcyOTY2Mjc4MywiZXhwIjoxNzI5NjY2MzgzfQ.xr2EIA2y8CvWp0n-gnphvSf39EMoWZ7kCnNx6m-AQUM"
             },
             body: JSON.stringify(values)
         });
